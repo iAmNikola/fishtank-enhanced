@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!-- Author: Sean -->
+<html>
+  <head>
+    <style>
+      button {
+        width: 100%;
+        min-width: 100px;
+        outline: none;
+        margin-bottom: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="div_buttons" visibility="visible">
+      <br>
+      <table>
+        <tr><button id="bt-fullscreen">Toggle fullscreen camera pane</button></tr>
+        <tr><button id="bt-live-thumbs">Toggle live thumbnails</button></tr>
+        <tr><button id="bt-all-with-audio">Show all feeds with current audio/video</button></tr>
+        <tr><button id="bt-footer">Toggle announcement footer</button></tr>
+        <tr><button id="bt-kill-chat">Toggle Chat</button></tr>
+        <!-- <tr><button id="bt-left-sidebar">Toggle left sidebar</button></tr> -->
+        <!-- <tr><button id="bt-chat">Toggle chat</button></tr> -->
+      </table>
+    </div>
+    <br>
+    <div id="author_lbl" style="opacity:0.3;" hidden >
+      Author:<br><a id="author_website" href="https://Sean">Sean</a>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
